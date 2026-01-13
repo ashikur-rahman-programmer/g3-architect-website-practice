@@ -10,3 +10,60 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* website main part start  */
+body {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* shared styles */
+
+.heading-1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4rem;
+  color: #000;
+}
+
+.heading-2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: #000;
+}
+
+.heading-3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 3rem;
+  color: #131313;
+}
+
+.desc {
+  font-size: 1rem;
+  color: #727272;
+  line-height: 1.6rem;
+}
+
+.btn-primary {
+  padding: 20px 24px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  background: #ff900e;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background: #ff8f0ec2;
+}
+.btn-primary:active {
+  transform: translateY(3px);
+}
+
+.mb-24 {
+  margin-bottom: 1.5rem;
+}
+.mb-32 {
+  margin-bottom: 2rem;
+}
