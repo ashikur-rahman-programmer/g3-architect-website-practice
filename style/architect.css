@@ -111,6 +111,12 @@ li a {
 }
 
 /* banner */
+.banner-content {
+  max-width: 860px;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
 .banner-img-box {
   padding: 50px 0;
 }
@@ -208,7 +214,12 @@ li a {
     flex-direction: column;
     gap: 20px;
   }
-
+  nav ul {
+    flex-direction: column;
+  }
+  .banner-content {
+    margin-top: 50px;
+  }
   .quick-list {
     flex-direction: column;
     margin-top: 20px;
@@ -238,6 +249,9 @@ li a {
     gap: 20px;
   }
 
+  .banner-content {
+    margin-top: 50px;
+  }
   .quick-list {
     flex-direction: column;
     margin-top: 30px;
