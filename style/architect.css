@@ -54,14 +54,16 @@ main > section {
 .btn-primary {
   padding: 20px 24px;
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 500;
   border-radius: 8px;
   border: none;
   background: #ff900e;
+  color: #fff;
   cursor: pointer;
+  transition: all 0.3s;
 }
 .btn-primary:hover {
-  background: #ff8f0ec2;
+  background: #d37000;
 }
 .btn-primary:active {
   transform: translateY(3px);
@@ -111,4 +113,39 @@ figure {
 }
 .banner-img {
   width: 100%;
+}
+
+/* quick list section start */
+.quick-list {
+  justify-content: center;
+  align-items: center;
+  gap: 73px;
+  margin-top: 85px;
+  /* padding: 0px 40px; */
+}
+.teams {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.team-img {
+  width: 100%;
+}
+.quick-list-content {
+  max-width: 540px;
+  width: 100%;
+}
+.normal {
+  font-weight: 500;
+  color: #999;
+  line-height: 3rem;
+}
+.bold {
+  line-height: 3rem;
+  font-weight: 600;
+}
+.color {
+  font-weight: 600;
+  line-height: 3rem;
+  color: #ff900e;
 }
