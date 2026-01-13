@@ -149,3 +149,41 @@ figure {
   line-height: 3rem;
   color: #ff900e;
 }
+
+/* mobile responsive  */
+
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .quick-list {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .teams {
+    grid-template-columns: 1fr;
+  }
+  .btn-primary {
+    padding: 15px 20px;
+    font-size: 1rem;
+  }
+}
+
+/* tablet responsive  */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .quick-list {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .teams {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
