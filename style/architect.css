@@ -16,6 +16,12 @@ body {
   margin: 0 auto;
 }
 
+main > section {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 /* shared styles */
 
 .heading-1 {
@@ -66,4 +72,43 @@ body {
 }
 .mb-32 {
   margin-bottom: 2rem;
+}
+.display-flex {
+  display: flex;
+}
+
+/* header */
+/* navbar */
+header {
+  background: rgba(255, 144, 14, 0.1);
+}
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+nav ul {
+  gap: 15px;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-left: 15px;
+}
+li a {
+  text-decoration: none;
+}
+
+/* banner */
+figure {
+  padding: 50px 0;
+}
+.banner-img {
+  width: 100%;
 }
