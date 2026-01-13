@@ -230,6 +230,22 @@ li a {
   border: 3px solid #ff8f0e65;
   border-radius: 8px;
 }
+/* sponsors section */
+.sponsors-content {
+  max-width: 540px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sponsors-cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  place-items: center;
+  text-align: center;
+  filter: grayscale(100%);
+  padding-top: 50px;
+}
 
 /* ///////////////// */
 
@@ -270,6 +286,13 @@ li a {
     grid-template-columns: 1fr;
     gap: 40px;
   }
+
+  .sponsors-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 20px;
+    gap: 20px;
+  }
 }
 
 /* tablet responsive  */
@@ -304,5 +327,11 @@ li a {
   .facts-cards {
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
+  }
+  .sponsors-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 20px;
+    gap: 20px;
   }
 }
